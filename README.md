@@ -1,4 +1,4 @@
-# [DemoCRUDWithScalffold](https://youtu.be/Bb1OOVt1Tfs)https://youtu.be/Bb1OOVt1Tfs
+# Build a Stunning Website with CRUD : .NET 8 Blazor's Scaffolding Magic in 10 mins [New Feature]🔥🎆 https://youtu.be/Bb1OOVt1Tfs
 ![website](https://github.com/Netcode-Hub/DemoCRUDWithScalffold/assets/110794348/f4d06fa6-8bcc-4d62-afab-acf1a4b1e5c6)
 
 
