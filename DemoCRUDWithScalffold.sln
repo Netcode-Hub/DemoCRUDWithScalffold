@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCRUDWithScalffold", "DemoCRUDWithScalffold\DemoCRUDWithScalffold.csproj", "{70458AF8-10E4-4306-BDAF-D2A025694575}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70458AF8-10E4-4306-BDAF-D2A025694575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70458AF8-10E4-4306-BDAF-D2A025694575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70458AF8-10E4-4306-BDAF-D2A025694575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70458AF8-10E4-4306-BDAF-D2A025694575}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F76736E-EB90-4492-968F-B93627CFCE46}
+	EndGlobalSection
+EndGlobal

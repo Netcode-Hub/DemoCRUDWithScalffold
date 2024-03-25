@@ -1,0 +1,24 @@
+﻿@page "/products"
+@using Microsoft.AspNetCore.Components.QuickGrid
+@inject DemoCRUDWithScalffold.Data.DemoCRUDWithScalffoldContext DB
+@using DemoCRUDWithScalffold.Models
+
+<PageTitle>Index</PageTitle>
+
+<h1>Index</h1>
+
+<p>
+    <a href="products/create">Create New</a>
+</p>
+
+<QuickGrid Class="table" Items="DB.Product">
+    <PropertyColumn Property="product => product.Name" />
+    <PropertyColumn Property="product => product.Quantity" />
+    <PropertyColumn Property="product => product.Price" />
+
+    <TemplateColumn Context="product">
+        <a href="@($"products/edit?id={product.Id}")">Edit</a> |
+        <a href="@($"products/details?id={product.Id}")">Details</a> |
+        <a href="@($"products/delete?id={product.Id}")">Delete</a>
+    </TemplateColumn>
+</QuickGrid>
